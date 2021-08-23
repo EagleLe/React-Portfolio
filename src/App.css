@@ -57,6 +57,14 @@
   width: 366px;
     height: 451px;
 }
+.img2 {
+
+  right: 10rem;
+  box-shadow: var(--bs);
+  width: 366px;
+    height: 451px;
+    border: #d1caca, 10px;
+}
 .header-wrapper{
   position: relative;
   background: url(bg-1.jpg) no-repeat;
@@ -90,9 +98,9 @@
 
 .mybg{
   /* background-color: #f6dbdb; */
-  background: #3a6186; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(49, 46, 46); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, rgb(49, 46, 46) , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, rgb(49, 46, 46) , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color : #fff;
 
 }
