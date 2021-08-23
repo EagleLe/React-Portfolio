@@ -36,3 +36,230 @@
     transform: rotate(360deg);
   }
 }
+
+:root {
+  --ff-primary: 'Source Sans Pro', sans-serif;
+  --ff-secondary: 'Source Code Pro', monospace;
+  --clr-light: rgb(49, 46, 46);
+  --clr-dark: #ffffff;
+  --clr-accent: #e01616;
+  
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+  
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+.img1 {
+  box-shadow: var(--bs);
+  width: 366px;
+    height: 451px;
+}
+.header-wrapper{
+  position: relative;
+  background: url(bg-1.jpg) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.main-info h1{
+  color:white;
+  text-transform: uppercase;
+ font-size: 60px;
+}
+
+.main-info p{
+  color:white;
+  
+}
+
+.mybg{
+  /* background-color: #f6dbdb; */
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+
+}
+
+.mybg h1{
+  text-transform: uppercase;
+ font-size: 60px;
+}
+
+.mybg p{
+
+ font-size: 20px;
+}
+
+.subheader {
+  margin: 0;
+  font-size: var(--fs-h3);
+  color: white;
+}
+
+.subheader--1,
+.subheader--2 {
+  background: #d8700c;
+  padding: .25em 1em;
+  font-family: var(--ff-secondary);
+  margin-bottom: 1em;
+}
+
+
+
+.proj1{
+  background: url(Daily\ Planner.png) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 50vh;
+  position: relative;
+  
+}
+
+.proj2{
+  background: url(Readme.png) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 50vh;
+  position: relative;
+  
+}
+.proj3{
+  background: url(TImbre.jpg) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 50vh;
+  position: relative;
+  
+}
+.proj4{
+  background: url(brewhaha.png) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 50vh;
+  position: relative;
+ 
+}
+.proj5{
+  background: url(Password.png) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 50vh;
+  position: relative;
+ 
+}
+.proj6{
+  background: url(Notetaker.png) no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 50vh;
+  position: relative;
+ 
+}
+
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
+    
+    font-family: 'Teko', sans-serif;
+  padding-top: 30px;
+  
+  height: auto;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;    
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+
+}
+
+
+a:hover{
+  text-decoration:none;
+}
+.section-padding {
+padding: 60px 0;
+}
+.bottom {
+  background-color: #0a1c2e;
+}
+.bottom .copyright {
+  color: #e5e5e5;
+  font-weight: 600;
+}
+.copyright a {
+  color: #f2ff49;
+  margin-left: 3px;
+  padding-right: 3px;
+}
+.bottom p {
+  margin-bottom: 0;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.copyright p span {
+  color: #d1caca;
+}
+.bottom .copyright p, .bottom .copyright a:hover{
+  color: #6c6d83;
+}
